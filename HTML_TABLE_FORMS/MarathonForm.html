@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="color.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarathonForm</title>
+</head>
+
+<body>
+
+    <h1>Race Registration!</h1>
+    <form action="https://worldsmarathons.com/c/marathon/nepal">
+        <label for="FirstName"><b>First Name</b></label>
+        <input type="text" id="FirstName" required placeholder="first name" name="firstname">
+        <label for="LastName">Last Name</label>
+        <input type="text" id="LastName" required placeholder="last name" name="lastname">
+        <br>
+        <br>
+        <section>Select a Race:
+            <br>
+            <br>
+            <input type="radio" id="Fun" name="select" required>
+            <label for="Fun">Fun Run 5k</label>
+            <br>
+            <input type="radio" id="half" name="select" required>
+            <label for="half">Half Marathon</label>
+            <br>
+            <input type="radio" id="full" name="select" required>
+            <label for="full">Full Marathon</label>
+        </section>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" required placeholder="mail" name="mail">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" required placeholder="password" name="Pass">
+        <br>
+        <label for="selection">Select Age Group</label>
+        <select name="age" id="selection">
+            <option value="">under 18</option>
+            <option value="18 to 30">18-30</option>
+            <option value="30 to 50">30-50</option>
+            <option value="50+">50+</option>
+
+        </select>
+        <br>
+        <button>Register!</button>
+    </form>
+
+</body>
+
+</html>
