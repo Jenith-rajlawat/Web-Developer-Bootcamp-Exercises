@@ -1,0 +1,18 @@
+.circle {
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  position: relative;
+  left: 400px;
+  transition: background-color 1s;
+  transition-timing-function: ease-in;
+}
+.circle:hover {
+  background-color: cornflowerblue;
+  border-radius: 90%;
+  transition: 1s;
+  transition-timing-function: ease-in;
+}

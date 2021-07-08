@@ -1,0 +1,34 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #3d405b;
+  border: 5px solid black;
+  margin: 10px;
+  /* padding: 50px; */
+  display: inline-block; /*/made the 3 div section be in same line */
+}
+
+#middle {
+  background-color: aliceblue;
+}
+
+#static #middle {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+#absolute/* required to string the tala ko absolute to this container */ {
+  position: absolute;
+}
+
+#absolute #middle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#fixed #middle {
+  position: fixed;
+  top: 0px;
+  left: 50px;
+}
